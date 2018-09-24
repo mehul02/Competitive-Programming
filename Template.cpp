@@ -50,7 +50,7 @@
 	#define     max6     1000005
 	#define     max5     100004
 	#define     max4     10003
-	#define 	mod  	 1000000007
+	#define     mod      1000000007
 	#define     inf      1e9
 
     using namespace std;
