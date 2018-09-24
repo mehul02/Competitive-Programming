@@ -9,9 +9,9 @@
 
 	///--------------------------------------------------------------------------------
 	#define 	T() 				ll t;	cin>>t;		while(t--)
-	#define		ll 				    long long
-	#define		vi 				    vector<ll>
-	#define     	pii                 pair<ll,ll>
+	#define		ll 				long long
+	#define		vi 				vector<ll>
+	#define     	pii                 		pair<ll,ll>
 	#define 	vpair 				vector< pii >
 	#define 	fast 				ios_base::sync_with_stdio(false),cin.tie(0),cout.tie(0);
 	#define     	repp(i,a,n)         		for(ll i= a ; i < n ; ++i)
