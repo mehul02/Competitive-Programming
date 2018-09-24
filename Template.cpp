@@ -42,7 +42,7 @@
 	///==========PRINTING=============///
 	#define     prarr(arr)      rep(i,sizeof(arr)/sizeof(ll)) cout<<arr[i]<<" "; nl
 	#define     prvec(v)        rep(i,v.size()) cout<<v[i]<<" "; nl
-	#define     pr(x, y)        cout<<x<<"\n";
+	#define     pr(x)           cout<<x<<"\n";
 	#define     pr2(x, y)       cout<<x<<" "<<y<<"\n";
 	#define     pr3(x, y, z)    cout<<x<<" "<<y<<" "<<z<<"\n";
 
