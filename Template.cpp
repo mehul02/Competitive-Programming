@@ -61,6 +61,9 @@
 	#define     mod      1000000007
 	#define     inf      1e9
 
+	///==========FUNCTIONS=============///
+	ll powermod(ll _a,ll _b,ll _m)	{ll _r=1;while(_b){if(_b%2==1)_r=(_r*_a)%_m;_b/=2;_a=(_a*_a)%_m;}return _r;}
+	ll string_to_number(string s)	{ll x=0; stringstream convert(s); convert>>x; return x;}
     using namespace std;
 
     int main()
