@@ -49,10 +49,10 @@
 	///==========DEBUGGING=============///
     	#define 	debug(a) 		cout<<"*"<<a<<endl;
     	#define 	debug2(a,b) 		cout<<"$"<<a<<" "<<b<<endl;
-    	#define 	debug3(a,b,c) 		cout<<"$"<<a<<" "<<b" "<<c<<endl;
+    	#define 	debug3(a,b,c) 		cout<<"$"<<a<<" "<<b<<" "<<c<<endl;
 	#define 	bug 			cout<<"#"<<endl;
     	#define 	nl 			cout<<'\n';
-    	#define     	endl                	cout<<'\n'
+    	#define     	endl                	'\n'
     
 	///==========CONSTANTS=============///
 	#define     max6     1000005
