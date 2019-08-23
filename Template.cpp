@@ -1,9 +1,9 @@
 ///==================================================///
-	///
+
 	///  Ir0nic_  ///
     	///  MEHUL BHUTALIA  ///
 	/// Indian Institute Of Information Technology and Management,Gwalior.  ///
-	///
+	
 ///==================================================///
 #include<bits/stdc++.h>
 #define     T()                 ll t;    cin>>t;        while(t--)
