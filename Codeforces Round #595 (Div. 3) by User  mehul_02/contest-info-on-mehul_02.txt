@@ -1,0 +1,7 @@
+Username: mehul_02
+Contest no: 29
+Contest name: Codeforces Round #595 (Div. 3)
+Rank: 125
+Solved: 8
+Rating Change: +112
+New Rating: 1702

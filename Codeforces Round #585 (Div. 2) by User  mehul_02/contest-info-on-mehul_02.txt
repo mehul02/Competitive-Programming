@@ -1,0 +1,7 @@
+Username: mehul_02
+Contest no: 22
+Contest name: Codeforces Round #585 (Div. 2)
+Rank: 948
+Solved: 4
+Rating Change: +11
+New Rating: 1706

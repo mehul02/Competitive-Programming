@@ -1,0 +1,7 @@
+Username: mehul_02
+Contest no: 19
+Contest name: Educational Codeforces Round 71 (Rated for Div. 2)
+Rank: 1877
+Solved: 3
+Rating Change: -14
+New Rating: 1645

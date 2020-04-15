@@ -1,0 +1,7 @@
+Username: mehul_02
+Contest no: 6
+Contest name: Codeforces Round #519 by Botan Investments
+Rank: 1098
+Solved: 4
+Rating Change: +100
+New Rating: 1515

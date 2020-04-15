@@ -1,0 +1,7 @@
+Username: mehul_02
+Contest no: 14
+Contest name: Educational Codeforces Round 58 (Rated for Div. 2)
+Rank: 960
+Solved: 4
+Rating Change: -2
+New Rating: 1739

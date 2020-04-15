@@ -1,0 +1,7 @@
+Username: mehul_02
+Contest no: 20
+Contest name: Manthan, Codefest 19 (open for everyone, rated, Div. 1 + Div. 2)
+Rank: 3018
+Solved: 1
+Rating Change: -43
+New Rating: 1602

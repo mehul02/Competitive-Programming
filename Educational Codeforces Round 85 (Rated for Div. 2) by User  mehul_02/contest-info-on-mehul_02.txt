@@ -1,0 +1,7 @@
+Username: mehul_02
+Contest no: 34
+Contest name: Educational Codeforces Round 85 (Rated for Div. 2)
+Rank: 7847
+Solved: 2
+Rating Change: -111
+New Rating: 1694

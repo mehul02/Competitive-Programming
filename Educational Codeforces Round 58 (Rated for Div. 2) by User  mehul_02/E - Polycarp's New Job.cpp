@@ -1,0 +1,217 @@
+
+1101 E - Polycarp's New Job.cpp GNU C++14 Accepted
+///==================================================///
+	///
+	///  Ir0nic_  ///
+    ///  MEHUL BHUTALIA  ///
+	/// Indian Institute Of Information Technology and Management,Gwalior.  ///
+	///
+	///==================================================///
+    #include<bits/stdc++.h>
+
+    ///--------------------------------------------------------------------------------
+    #define 	T() 				ll t;	cin>>t;		while(t--)
+	#define		ll                  int
+	#define		vi 				    vector<ll>
+	#define     pii                 pair<ll,ll>
+	#define 	vpair 				vector< pii >
+	#define 	fast 				ios_base::sync_with_stdio(false),cin.tie(0),cout.tie(0);
+	#define     repp(i,a,n)         for(ll i= a ; i < n ; ++i)
+	#define     rep(i,n)            for(ll i= 0 ; i < n ; ++i)
+	#define 	p_b		 			push_back
+	#define 	p_f 				push_front
+	#define 	pop_b 				pop_back()
+	#define 	pop_f 				pop_front()
+	#define 	m_p 				make_pair
+	#define  	sumv(v)  			accumulate(v.begin(),v.end(),0);
+	#define 	sortv(v) 			sort(v.begin(),v.end())
+	#define 	sort_dec(v) 		sort(v.begin(),v.end(),greater<ll>() )
+	#define 	l_b(v,l)   		    lower_bound (v.begin(), v.end(), l)
+	#define 	u_b(v,l)   		    upper_bound (v.begin(), v.end(), l)
+	#define 	pq 					priority_queue
+	#define 	ff 					first
+	#define 	ss 					second
+	#define     len                 length()
+	#define     all(v)              v.begin(),v.end()
+    #define     mset(a,b)           memset(a,b,sizeof(a));
+
+	///==========INPUT=============///
+	#define     sc(a)           scanf("%lld",&a);
+    #define     sc2(a,b)        scanf("%lld%lld",&a,&b);
+    #define     sc3(a,b,c)      scanf("%lld%lld%lld",&a,&b,&c);
+    #define     sc4(a,b,c,d)    scanf("%lld%lld%lld%lld",&a,&b,&c,&d);
+
+    ///==========PRINTING=============///
+    #define     prarr(arr)      rep(i,sizeof(arr)/sizeof(ll)) cout<<arr[i]<<" "; nl
+    #define     prvec(v)        rep(ii,v.size()) cout<<v[ii]<<" "; nl
+    #define     pr(x)           cout<<x<<"\n";
+    #define     pr2(x, y)       cout<<x<<" "<<y<<"\n";
+    #define     pr3(x, y, z)    cout<<x<<" "<<y<<" "<<z<<"\n";
+
+    ///==========DEBUGGING=============///
+    #define 	debug(a) 			cout<<"*"<<a<<endl;
+    #define 	debug2(a,b) 		cout<<"$"<<a<<" "<<b<<endl;
+    #define 	debug3(a,b,c) 		cout<<"$"<<a<<" "<<b<<" "<<c<<endl;
+	#define 	bug 				cout<<"#"<<endl;
+    #define 	nl 					cout<<'\n';
+    #define     endl                '\n'
+
+    ///==========CONSTANTS=============///
+    #define     max6     1000005
+    #define     max5     100004
+    #define     max4     10003
+    #define 	mod  	 1000000007
+    #define     inf      1e15
+    ll powermod(ll _a,ll _b,ll _m)	{ll _r=1;while(_b){if(_b%2==1)_r=(_r*_a)%_m;_b/=2;_a=(_a*_a)%_m;}return _r;}
+
+    using namespace std;
+
+    int main()
+    {
+        fast
+        ll max1=0,max2=0;
+        ll n;
+        cin>>n;
+       rep(i,n)
+       {
+        char c;
+        ll a,b;
+        cin>>c>>a>>b;
+        if(c=='+')
+        {
+            if(b>a)
+                swap(a,b);
+            if(max2>max1)
+                swap(max1,max2);
+            if(a>max1)
+            {
+                    max1=a;
+                    max2=max(max2,b);
+            }
+            else
+            {
+                max2=max(max2,b);
+            }
+        }
+        else
+        {
+            if(b>a)
+                swap(a,b);
+            if(max2>max1)
+                swap(max1,max2);
+            if(a>=max1&&b>=max2)
+                cout<<"YES";
+            else
+                cout<<"NO";
+            nl
+        }
+
+       }
+    }
+
+1101 E - Polycarp's New Job.cpp GNU C++14 Time limit exceeded on test 7
+///==================================================///
+	///
+	///  Ir0nic_  ///
+    ///  MEHUL BHUTALIA  ///
+	/// Indian Institute Of Information Technology and Management,Gwalior.  ///
+	///
+	///==================================================///
+    #include<bits/stdc++.h>
+
+    ///--------------------------------------------------------------------------------
+    #define 	T() 				ll t;	cin>>t;		while(t--)
+	#define		ll                  long long
+	#define		vi 				    vector<ll>
+	#define     pii                 pair<ll,ll>
+	#define 	vpair 				vector< pii >
+	#define 	fast 				ios_base::sync_with_stdio(false),cin.tie(0),cout.tie(0);
+	#define     repp(i,a,n)         for(ll i= a ; i < n ; ++i)
+	#define     rep(i,n)            for(ll i= 0 ; i < n ; ++i)
+	#define 	p_b		 			push_back
+	#define 	p_f 				push_front
+	#define 	pop_b 				pop_back()
+	#define 	pop_f 				pop_front()
+	#define 	m_p 				make_pair
+	#define  	sumv(v)  			accumulate(v.begin(),v.end(),0);
+	#define 	sortv(v) 			sort(v.begin(),v.end())
+	#define 	sort_dec(v) 		sort(v.begin(),v.end(),greater<ll>() )
+	#define 	l_b(v,l)   		    lower_bound (v.begin(), v.end(), l)
+	#define 	u_b(v,l)   		    upper_bound (v.begin(), v.end(), l)
+	#define 	pq 					priority_queue
+	#define 	ff 					first
+	#define 	ss 					second
+	#define     len                 length()
+	#define     all(v)              v.begin(),v.end()
+    #define     mset(a,b)           memset(a,b,sizeof(a));
+
+	///==========INPUT=============///
+	#define     sc(a)           scanf("%lld",&a);
+    #define     sc2(a,b)        scanf("%lld%lld",&a,&b);
+    #define     sc3(a,b,c)      scanf("%lld%lld%lld",&a,&b,&c);
+    #define     sc4(a,b,c,d)    scanf("%lld%lld%lld%lld",&a,&b,&c,&d);
+
+    ///==========PRINTING=============///
+    #define     prarr(arr)      rep(i,sizeof(arr)/sizeof(ll)) cout<<arr[i]<<" "; nl
+    #define     prvec(v)        rep(ii,v.size()) cout<<v[ii]<<" "; nl
+    #define     pr(x)           cout<<x<<"\n";
+    #define     pr2(x, y)       cout<<x<<" "<<y<<"\n";
+    #define     pr3(x, y, z)    cout<<x<<" "<<y<<" "<<z<<"\n";
+
+    ///==========DEBUGGING=============///
+    #define 	debug(a) 			cout<<"*"<<a<<endl;
+    #define 	debug2(a,b) 		cout<<"$"<<a<<" "<<b<<endl;
+    #define 	debug3(a,b,c) 		cout<<"$"<<a<<" "<<b<<" "<<c<<endl;
+	#define 	bug 				cout<<"#"<<endl;
+    #define 	nl 					cout<<'\n';
+    #define     endl                '\n'
+
+    ///==========CONSTANTS=============///
+    #define     max6     1000005
+    #define     max5     100004
+    #define     max4     10003
+    #define 	mod  	 1000000007
+    #define     inf      1e15
+    ll powermod(ll _a,ll _b,ll _m)	{ll _r=1;while(_b){if(_b%2==1)_r=(_r*_a)%_m;_b/=2;_a=(_a*_a)%_m;}return _r;}
+
+    using namespace std;
+
+    int main()
+    {
+        ll max1=0,max2=0;
+       T()
+       {
+        char c;
+        ll a,b;
+        cin>>c>>a>>b;
+        if(c=='+')
+        {
+            if(b>a)
+                swap(a,b);
+            if(max2>max1)
+                swap(max1,max2);
+            if(a>max1)
+            {
+                    max1=a;
+                    max2=max(max2,b);
+            }
+            else
+            {
+                max2=max(max2,b);
+            }
+        }
+        else
+        {
+            if(b>a)
+                swap(a,b);
+            if(max2>max1)
+                swap(max1,max2);
+            if(a>=max1&&b>=max2)
+                cout<<"YES";
+            else
+                cout<<"NO";
+            nl
+        }
+
+       }
+    }
