@@ -90,7 +90,8 @@ int main()
 		while (l < h)
 		{
 			ll mid = (l + h) >> 1;
-			if (10 * sqrt(mid) + mid <= n)
+			ll x = sqrt(mid);
+			if (10 * x + mid <= n)
 				l = mid + 1;
 			else
 				h = mid;
