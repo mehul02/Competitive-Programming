@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+using namespace std;
+long long power(long long base, long long exponent,
+                long long mod)
+{
+        long long x = 1;
+        long long y = base;
+        while (exponent > 0)
+        {
+                if (exponent % 2 == 1)
+                        x = (x * y) % mod;
+ 
+                y = (y * y) % mod;
+                exponent = exponent / 2;
+        }
+ 
+        return x % mod;
+}
+long long fermat(long long a, long long b, long long p)
+{
+        long long c=b%(p-1);
+        cout<<endl;
+        cout<<b<<" can be written as "<<b/(p-1)<<"*"<<(p-1)<<" + "<<c<<endl<<endl;
+        cout<<" a^(p-1) % p = 1"<<endl<<endl;
+        return power(a,c,p);
+}
+ 
+int main()
+{
+        long long a,b,p;;
+        cout<<"input the numbers"<<endl;
+        cin>>a>>b>>p;
+        long long ans=fermat(a,b,p);
+        cout<<"the result is "<<ans<<endl;
+        return 0;
+}
